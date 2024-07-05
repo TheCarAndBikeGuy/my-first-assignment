@@ -22,35 +22,28 @@ h1 {
 }
 
 header {
+    width: 100vw;
     display: flex;
     position: fixed;
     align-items: center;
+    justify-content: space-between;
     padding: 2.5px 3px;
     gap: 4px;
 }
 
-nav a {
+nav a{
+    margin-right: 20px;
+    padding: 20px;
     color: #fff;
     text-decoration: none;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-a:hover {
+nav a:hover {
+    text-decoration: underline;
+    transition: 3s;
     color: #fff;
-    transition: 3s ease;
-}
-
-a::before {
-    content: "";
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
 }
 
 /* Feauture Of Page / Home */
@@ -102,7 +95,7 @@ a::before {
 
 .buy {
     position: absolute;
-    bottom: -1600px;
+    bottom: -1700px;
     left: 50px;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -112,6 +105,8 @@ a::before {
     color: #fff;
     text-decoration: none;
 }
+
+
 
 /* Feature 3 / Merch */
 .feature3 {
@@ -123,8 +118,7 @@ a::before {
 
 .find {
     position: absolute;
-    justify-content: center;
-    bottom: -2175px;
+    bottom: -2400px;
     left: 50px;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
