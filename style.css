@@ -15,6 +15,7 @@ h1 {
     font-size: 40px;
     color: #fff;
     text-decoration: underline;
+
 }
 
 .f1 {
@@ -47,7 +48,7 @@ nav a:hover {
 }
 
 /* Feauture Of Page / Home */
-.feauture {
+.feature {
     height: 100vh;
     background-image: url("images/f1night.webp");
     background-size: cover;
@@ -63,7 +64,7 @@ nav a:hover {
 }
 
 /* Feauture 1 / About */
-.feauture1 {
+.feature1 {
     height: 100vh;
     background-image: url("images/f1rain.jpg");
     background-size: cover;
@@ -104,6 +105,12 @@ nav a:hover {
 .button {
     color: #fff;
     text-decoration: none;
+}
+
+.button a:hover {
+    text-decoration: underline;
+    transition: 3s;
+    color: #fff;
 }
 
 
@@ -185,8 +192,6 @@ table, th, td {
     color: #47A025;
     text-decoration: none;
 }
-
-
 
 /* Footer */
 .copyright {
