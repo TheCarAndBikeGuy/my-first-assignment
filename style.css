@@ -1,0 +1,204 @@
+/* Top Of Page */
+html {
+    scroll-behavior: smooth;
+}
+
+body { 
+    background-color: #000;
+} 
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.f1 {
+    color: red;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 2.5px 3px;
+    gap: 4px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    color: #fff;
+    transition: 3s ease;
+}
+
+a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+/* Feauture Of Page / Home */
+.feauture {
+    height: 100vh;
+    background-image: url("images/f1night.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Feauture 1 / About */
+.feauture1 {
+    height: 100vh;
+    background-image: url("images/f1rain.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.info {
+    position: absolute;
+    right: 50px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info h3 {
+    text-decoration: underline;
+}
+
+.info p {
+    color: #fff;
+}
+
+/* Feature 2 / Tickets */
+.feature2 {
+    height: 100vh;
+    background-image: url("images/f1goldenhour.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.buy {
+    position: absolute;
+    bottom: -1600px;
+    left: 50px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Feature 3 / Merch */
+.feature3 {
+    height: 100vh;
+    background-image: url("images/f1donuts.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.find {
+    position: absolute;
+    justify-content: center;
+    bottom: -2175px;
+    left: 50px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.find h2 {
+    text-decoration: underline;
+}
+
+/* Table */
+table, th, td {
+    border: 1px solid;
+    background-color: #000;
+ }
+
+/* Table Buttons */
+
+.button1 {
+    color: #A6051A;
+    text-decoration: none;
+}
+
+.button2 {
+    color: #00A19C;
+    text-decoration: none;
+}
+
+.button3 {
+    color: #CC1E4A;
+    text-decoration: none;
+}
+
+.button4 {
+    color: #FF8000;
+    text-decoration: none;
+}
+
+.button5 {
+    color: #00352F;
+    text-decoration: none;
+}
+
+.button6 {
+    color: #1f3d88;
+    text-decoration: none;
+}
+
+.button7 {
+    color: #EFEFEF;
+    text-decoration: none;
+}
+
+.button8 {
+    color: #005BA9;
+    text-decoration: none;
+}
+
+.button9 {
+    color: #00A3E0;
+    text-decoration: none;
+}
+
+.button10 {
+    color: #47A025;
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background: #A1B0AB;
+    color: #000;
+}
