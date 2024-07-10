@@ -1,203 +1,206 @@
 /* Top Of Page */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body { 
-    background-color: #000;
-} 
+body {
+  background-color: #000;
+}
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 h1 {
-    font-size: 40px;
-    color: #fff;
-    text-decoration: underline;
-
+  font-size: 40px;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .f1 {
-    color: red;
+  color: red;
 }
 
 header {
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.5px 3px;
-    gap: 4px;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5px 3px;
+  gap: 4px;
 }
 
-nav a{
-    margin-right: 20px;
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-    align-items: center;
-    flex-wrap: wrap;
+nav a {
+  margin-right: 20px;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    transition: 3s;
-    color: #fff;
+  text-decoration: underline;
+  transition: 3s;
+  color: #fff;
 }
 
 /* Feauture Of Page / Home */
 .feature {
-    height: 100vh;
-    background-image: url("images/f1night.webp");
-    background-size: cover;
-    background-position: center center;
+  height: 100vh;
+  background-image: url("images/f1night.webp");
+  background-size: cover;
+  background-position: center center;
 }
 
 .title {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /* Feauture 1 / About */
 .feature1 {
-    height: 100vh;
-    background-image: url("images/f1rain.jpg");
-    background-size: cover;
-    background-position: center center;
+  height: 100vh;
+  background-image: url("images/f1rain.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 .info {
-    position: absolute;
-    right: 50px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 50px;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .info h3 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .info p {
-    color: #fff;
+  color: #fff;
 }
 
 /* Feature 2 / Tickets */
 .feature2 {
-    height: 100vh;
-    background-image: url("images/f1goldenhour.jpeg");
-    background-size: cover;
-    background-position: center center;
+  height: 100vh;
+  background-image: url("images/f1goldenhour.jpeg");
+  background-size: cover;
+  background-position: center center;
 }
 
 .buy {
-    position: absolute;
-    bottom: -1700px;
-    left: 50px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: -1700px;
+  left: 50px;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .button {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .button a:hover {
-    text-decoration: underline;
-    transition: 3s;
-    color: #fff;
+  text-decoration: underline;
+  transition: 3s;
+  color: #fff;
 }
-
-
 
 /* Feature 3 / Merch */
 .feature3 {
-    height: 100vh;
-    background-image: url("images/f1donuts.jpg");
-    background-size: cover;
-    background-position: center center;
+  height: 100vh;
+  background-image: url("images/f1donuts.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 .find {
-    position: absolute;
-    bottom: -2400px;
-    left: 50px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: -2400px;
+  left: 50px;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .find h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Table */
-table, th, td {
-    border: 1px solid;
-    background-color: #000;
- }
+table,
+th,
+td {
+  border: 1px solid;
+  background-color: #000;
+}
 
 /* Table Buttons */
 
 .button1 {
-    color: #A6051A;
-    text-decoration: none;
+  color: #a6051a;
+  text-decoration: none;
 }
 
 .button2 {
-    color: #00A19C;
-    text-decoration: none;
+  color: #00a19c;
+  text-decoration: none;
 }
 
 .button3 {
-    color: #CC1E4A;
-    text-decoration: none;
+  color: #cc1e4a;
+  text-decoration: none;
 }
 
 .button4 {
-    color: #FF8000;
-    text-decoration: none;
+  color: #ff8000;
+  text-decoration: none;
 }
 
 .button5 {
-    color: #00352F;
-    text-decoration: none;
+  color: #00352f;
+  text-decoration: none;
 }
 
 .button6 {
-    color: #1f3d88;
-    text-decoration: none;
+  color: #1f3d88;
+  text-decoration: none;
 }
 
 .button7 {
-    color: #EFEFEF;
-    text-decoration: none;
+  color: #efefef;
+  text-decoration: none;
 }
 
 .button8 {
-    color: #005BA9;
-    text-decoration: none;
+  color: #005ba9;
+  text-decoration: none;
 }
 
 .button9 {
-    color: #00A3E0;
-    text-decoration: none;
+  color: #00a3e0;
+  text-decoration: none;
 }
 
 .button10 {
-    color: #47A025;
-    text-decoration: none;
+  color: #47a025;
+  text-decoration: none;
 }
 
 /* Footer */
 .copyright {
-    width: 100%;
-    text-align: center;
-    padding: 5px 0;
-    background: #A1B0AB;
-    color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  background: #a1b0ab;
+  color: #000;
 }
